@@ -50,4 +50,4 @@ if __name__ == "__main__":
     account_sid = 'ACc86666f6bbf72b3ae6bfc6df'
     auth_token = '1542b4b2b19df88f8cc8b5ebd'
     client = Client(account_sid, auth_token)
-    message = client.messages.create( body=send_message, from_='+19173326', to='+9189006
+    message = client.messages.create( body=send_message, from_='+19173326', to='+9189006')
